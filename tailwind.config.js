@@ -17,6 +17,13 @@ module.exports = {
         30: "repeat(30, 1fr)",
         100: "repeat(100, 1fr)",
       },
+      height: {
+        tall: "36rem",
+        "100vw": "100vw",
+      },
+      width: {
+        wide: "36rem",
+      },
     },
   },
   plugins: [],

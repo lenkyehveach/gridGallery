@@ -50,7 +50,7 @@ export default function useGrid(width, height) {
     let w = 0;
     let h = 0;
 
-    if (free <= 0.3) {
+    if (free <= 0.4) {
       w = minW;
       h = minH;
       return { w, h };
