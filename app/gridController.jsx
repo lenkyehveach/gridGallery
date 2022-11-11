@@ -67,7 +67,7 @@ const GridController = () => {
               className="w-48 h-12 self-center text-center font-bold md:text-3xl bg-slate-200 hover:bg-green-300 shadow-sm shadow-slate-800"
               onClick={() => setStart(() => true)}
             >
-              start
+              Start
             </button>
           </motion.div>
         )}
@@ -79,7 +79,7 @@ const GridController = () => {
               className="w-48 h-12 self-center text-center font-bold md:text-3xl  bg-slate-200 hover:bg-green-300 shadow-sm shadow-slate-800"
               onClick={() => setStart(() => false)}
             >
-              reset
+              Reset
             </button>
           </>
         )}
